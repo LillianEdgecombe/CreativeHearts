@@ -1,0 +1,20 @@
+{
+  "name": "lillianverse-creative-hearts",
+  "version": "1.0.0",
+  "description": "Creative Hearts blends daily life simulation with creative expression puzzles.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "babel-jest": "^30.4.1",
+    "jest": "^29.5.0"
+  }
+}
