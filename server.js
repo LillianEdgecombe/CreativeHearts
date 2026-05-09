@@ -7,8 +7,6 @@ const PORT = 3000;
 app.use(express.json());
 app.use(express.static('public'));
 app.use('/src', express.static('src'));
-// Allow access to node_modules for local phaser if needed
-app.use('/node_modules', express.static('node_modules'));
 
 const SAVE_PATH = path.join(__dirname, 'data', 'save.json');
 
